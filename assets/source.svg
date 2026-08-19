@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Canonical SVG source for BRT/RTB/BRF heritage icon
+     ViewBox: 0 0 16000 16000
+     Fills use the official palette. This file is the source of truth for exports.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="16000" height="16000" viewBox="0 0 16000 16000" preserveAspectRatio="xMidYMid meet">
+  <!-- White background (official) -->
+  <rect x="0" y="0" width="16000" height="16000" fill="#FFFFFF" />
+
+  <!-- Blue rectangular frame centered on the canvas -->
+  <!-- Using exact palette color: RGB(0,0,255) -> #0000FF -->
+  <rect x="5000" y="4000" width="6000" height="8000" fill="#0000FF" />
+
+  <!-- Inner white teardrop/rounded shape centered within the blue rectangle -->
+  <!-- Designed as a single path; coordinates chosen to visually match the provided artwork. -->
+  <path d="M11000 6000
+           A3000 3000 0 0 0 7000 10000
+           C7000 13000 11000 13000 11000 10000
+           C11000 8000 11500 7000 11000 6000 Z"
+        fill="#FFFFFF" />
+
+  <!-- Optional invisible metadata for tooling -->
+  <metadata>Palette: #808080 #FF0000 #00FF00 #0000FF #FFFFFF #FFFF00 #000000</metadata>
+</svg>
